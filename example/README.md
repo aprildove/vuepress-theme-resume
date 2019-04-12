@@ -25,24 +25,23 @@
 * 一周内统计所有的项目中文，采用正则+nodeJS的文件系统将 JS 和 HTML 文件的中文提取出来，并汇总为一份excel，交给翻译公司翻译。
 * 将翻译的中英文对照表通过写脚本的方式替换为 vue-i18n 的表达式，完成中英切换的功能。
 * 当中英对照表更新时，运行nodeJS脚本即可完成中英的文案更新。
-* 此项目在4月初印尼大选之前顺利部署上线
+* 此项目在4月初印尼大选之前顺利部署上线。
 
 ---
 
-### 可视化3D图表库FGL<span class="role">&nbsp;&nbsp;职责：glsl圆环光锥组件，调研3D地图</span><span class="right">2018.08 - 2019.01</span>
+### TIP威胁情报系统<span class="role">&nbsp;&nbsp;职责：SSR博客系统、从0到1搭建TIP项目</span><span class="right">2017.07 - 2018.04</span>
+* 技术栈：**Vue / Nuxt**
+* 调研nuxt（服务端渲染的Vue通用框架），并与后端配合实现多页面博客系统。更新文章时，Promise.all请求返回所有的的文章内容，nuxt.js将博客内容生成静态页面，实现博客系统的SEO优化。
+* 从0到1搭建威胁情报中心，高保真还原设计稿，模块化设计代码结构。丰富共用函数库（防止XSS攻击、单位转换等公用函数）、封装项目常用的卡片、上传组件。
+* 优化前端资源加载（图片加载优化、代码压缩、HMR提升开发效率）。
+
+---
+
+### 可视化3D图表库FGL<span class="role">&nbsp;&nbsp;职责：glsl圆环光锥组件，调研3D地图</span><span class="right">2018.04 - 2019.01</span>
 * 技术栈：**WebGL / GLSL**
-* 自学glsl，用漫反射+环境光绘制了圆环光锥，圆环光锥能扩展写出电影流浪地球的火焰冲击波效果。几何体支持多种配置项，丰富了大屏中3D图形的视觉效果。 <a href="https://codepen.io/aprildove/pen/pZzMJZ">（demo示例）</a>。
+* 自学glsl，用漫反射+环境光绘制了圆环光锥，圆环光锥能扩展写出电影流浪地球的火焰冲击波效果。几何体支持多种配置项，丰富了大屏中3D图形的视觉效果 <a href="https://codepen.io/aprildove/pen/pZzMJZ">（demo示例）</a>。
 * 调研3D地图，使用ExtrudeGeometry将geojson绘制的图形拉抻为3D地图，使地图图形支持交互。<a href="https://zhuanlan.zhihu.com/p/36888256">知乎链接</a><a href="https://codepen.io/aprildove/pen/GdGaEX"> demo </a>
 * 使用rem、svg、flex布局适配4k 2k分辨率，开发在不同分辨率展示的大屏系统。
-
----
-
-### TIP威胁情报系统<span class="role">&nbsp;&nbsp;职责：SSR博客系统、从0到1搭建TIP</span><span class="right">2019.01 - 2019.04</span>
-* 技术栈：**Vue / Nuxt**
-* 一周内统计所有的项目中文，采用正则+nodeJS的文件系统将 JS 和 HTML 文件的中文提取出来，并汇总为一份excel，交给翻译公司翻译。
-* 将翻译的中英文对照表通过写脚本的方式替换为 vue-i18n 的表达式，完成中英切换的功能。
-* 当中英对照表更新时，运行nodeJS脚本即可完成中英的文案更新。
-* 此项目在4月初印尼大选之前顺利部署上线
 
 ---
 
@@ -58,7 +57,11 @@
 * 掌握 Vue、ES6、Less、JS、CSS3
 * 熟悉 eCharts、GLSL、 Highcharts、ThreeJS、WebGL。
 * 了解 nodeJS、正则、web安全的防护
-* 目前正深入学习webpack，学习掘金小册的webpack优化配置，实践网站性能优化。
+
+---
+
+## 自我评价
+ 对项目负责，对细节认真
 
 ---
 

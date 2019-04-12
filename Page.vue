@@ -126,8 +126,10 @@ export default {
       font-weight: normal;
       font-style: italic;
     }
+    
     .footer {
       font-size: 1rem;
+      float: right;
     }
   }
 }
