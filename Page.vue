@@ -72,6 +72,7 @@ export default {
     }
 
     > h2 {
+      line-height: 2rem;
       font-size: 1.35em;
       display: flex;
 

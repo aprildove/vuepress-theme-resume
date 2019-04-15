@@ -22,26 +22,29 @@
 
 ### 天眼传感器国际化<span class="role">&nbsp;&nbsp;职责：中文的提取、编写文案替换脚本</span><span class="right">2019.01 - 2019.04</span>
 * 技术栈：**nodeJS / JavaScript**
-* 一周内统计所有的项目中文，采用正则+nodeJS的文件系统将 JS 和 HTML 文件的中文提取出来，并汇总为一份excel，交给翻译公司翻译。
-* 将翻译的中英文对照表通过写脚本的方式替换为 vue-i18n 的表达式，完成中英切换的功能。
+* 项目时间紧且中文直接写在项目里未考虑过国际化。我负责将项目Web部分国际化并于4月初印尼大选前顺利部署上线。
+* 负责一周内统计所有的项目中文，采用正则+nodeJS的文件系统将 JS 、 HTML 中多种场景的中文提取出来.
+* 将中英文对照表通过node脚本的方式改写为 vue-i18n 的表达式，完成中英切换的功能。
 * 当中英对照表更新时，运行nodeJS脚本即可完成中英的文案更新。
-* 此项目在4月初印尼大选之前顺利部署上线。
+* 将脚本不断完善后可用于天眼传感器其他版本的国际化工作。
 
 ---
 
-### TIP威胁情报系统<span class="role">&nbsp;&nbsp;职责：SSR博客系统、从0到1搭建TIP项目</span><span class="right">2017.07 - 2018.04</span>
+### TIP威胁情报系统<span class="role">&nbsp;&nbsp;职责：从0到1搭建TIP项目、SSR博客系统</span><span class="right">2017.07 - 2018.04</span>
 * 技术栈：**Vue / Nuxt**
-* 调研nuxt（服务端渲染的Vue通用框架），并与后端配合实现多页面博客系统。更新文章时，Promise.all请求返回所有的的文章内容，nuxt.js将博客内容生成静态页面，实现博客系统的SEO优化。
-* 从0到1搭建威胁情报中心，高保真还原设计稿，模块化设计代码结构。丰富共用函数库（防止XSS攻击、单位转换等公用函数）、封装项目常用的卡片、上传组件。
+* 从0到1搭建威胁情报中心，高保真还原设计稿，模块化设计代码结构。
+* 丰富公用函数库（防止XSS攻击、单位转换等公用函数）、封装项目常用的卡片、上传组件。
 * 优化前端资源加载（图片加载优化、代码压缩、HMR提升开发效率）。
+* 为了实现情报中心博客系统的SEO优化，调研nuxt（服务端渲染的Vue通用框架），并与后端配合实现多页面博客系统。
+* 使用媒体查询和flex布局简单实现iPhone移动端适配。
 
 ---
 
 ### 可视化3D图表库FGL<span class="role">&nbsp;&nbsp;职责：glsl圆环光锥组件，调研3D地图</span><span class="right">2018.04 - 2019.01</span>
 * 技术栈：**WebGL / GLSL**
-* 自学glsl，用漫反射+环境光绘制了圆环光锥，圆环光锥能扩展写出电影流浪地球的火焰冲击波效果。几何体支持多种配置项，丰富了大屏中3D图形的视觉效果 <a href="https://codepen.io/aprildove/pen/pZzMJZ">（demo示例）</a>。
-* 调研3D地图，使用ExtrudeGeometry将geojson绘制的图形拉抻为3D地图，使地图图形支持交互。<a href="https://zhuanlan.zhihu.com/p/36888256">知乎链接</a><a href="https://codepen.io/aprildove/pen/GdGaEX"> demo </a>
-* 使用rem、svg、flex布局适配4k 2k分辨率，开发在不同分辨率展示的大屏系统。
+* 为了丰富数据大屏的FGL组件库3D、2D图形，自学glsl，用漫反射+环境光绘制了圆环光锥，圆环光锥能扩展写出电影流浪地球的火焰冲击波效果。圆环光锥、八面体组件何体支持多种配置项<a href="https://codepen.io/aprildove/pen/pZzMJZ">（demo示例）</a>。
+* 调研3D地图，使用ExtrudeGeometry将geojson绘制的图形拉抻为3D地图，使地图图形支持交互。并总结经验发布于知乎专栏<a href="https://zhuanlan.zhihu.com/p/36888256">知乎文章链接</a><a href="https://codepen.io/aprildove/pen/GdGaEX"> demo地址 </a>
+* 数据大屏的任务中擅长使用echarts、canvas等API开发在不同分辨率展示的大屏系统，并采用rem、svg、flex布局等方法适配4k 2k不同的分辨率。
 
 ---
 
