@@ -60,6 +60,7 @@
 * 掌握 Vue、ES6、Less、JS、CSS3
 * 熟悉 eCharts、GLSL、 Highcharts、ThreeJS、WebGL。
 * 了解 nodeJS、正则、web安全的防护
+* 对网站性能和工程组件化有些许经验
 
 ---
 
@@ -68,4 +69,4 @@
 
 ---
 
-<span class="footer">谢谢阅览</span>
+### <span class="footer">谢谢阅览</span>
